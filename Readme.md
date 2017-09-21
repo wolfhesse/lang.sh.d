@@ -1,5 +1,5 @@
 pipe to netcat | listen | pipe - segments
-
+rq-env-add mailbot
 
 
 ## pipe-seg

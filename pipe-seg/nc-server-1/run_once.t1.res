@@ -6,14 +6,7 @@ pipe to netcat | listen | pipe - segments
 
 RQ: PRODUCER env var als streamer
 
-
-## pipe-consumer
-
-run_once holt ein readme von nc-server-1 und piped es durch pythnon markdown (filter)
-
-## nc-server-1
-
-while true cat readme | nc
+##
 
 ## dd-integration
 

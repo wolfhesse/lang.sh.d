@@ -22,6 +22,8 @@
 <li>
 <p>in /opt/data.d/langs.sh.d/pipe-consumer
 <code>sh
+    # ergebnis msc:s sollte ueber crontab 'erzeugt' werden
+    # ergebnis msc:c koennte weitergestreamt werden mit netcat, oder curl.webhook (im cronjob)
     sh run_once.sh &amp;&amp; cat run_once.res &gt; run_once.html</code></p>
 </li>
 </ul>

@@ -1,0 +1,23 @@
+Version 0.1.0
+ - branches beschreiben
+ - Merge remote-tracking branch 'github/master'
+ - wp
+ - Initial commit
+ - invent name SCHLAGWERK
+ - curl webhook crontab RFC
+ - wp
+ - add handle-sendport handler
+ - merged pipe-seg
+ - adding pipe-consumer
+ - add nc-server-1
+ - adding pipe-sec docs
+ - adding dd-integration docs
+ - naming
+ - cleanup
+ - tf nc.rcv | pipe... - consumer kopplung
+ - nc_sample_pretest
+ - generation 2
+ - generation 1
+ - sketch sample.sh
+ - adding Readme
+

@@ -1,3 +1,6 @@
+Version 0.3.0:
+ - zipped stream reader, usage cmt
+
 Version 0.2.0.eod:
  - Merge branch 'master' into pipe-seg
  - Merge branch 'master' of github.com:wolfhesse/lang.sh.d

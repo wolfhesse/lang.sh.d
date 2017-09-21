@@ -17,6 +17,25 @@ while true cat readme | nc
 
 ## dd-integration
 
+CURRENT:
+
+scenario: 
+
+- in /code/lang.sh.d/pipe-seg/nc-server-1
+``` sh
+	sh run_once.sh | nc -l -p 1235 -k
+``` 
+
+- in /opt/data.d/lang.sh.d/handle-sendport
+``` sh
+	while true; do sh run_once.sh ; done
+```
+
+- in /opt/data.d/langs.sh.d/pipe-consumer
+``` sh
+	sh run_once.sh && cat run_once.res > run_once.html
+```
+
 RQ: Dockerfile mit forever auf den server.sh
 
 	-p outer:inner gateway / line

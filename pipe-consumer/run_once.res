@@ -1,4 +1,5 @@
-<p>pipe to netcat | listen | pipe - segments</p>
+<p>pipe to netcat | listen | pipe - segments
+rq-env-add mailbot</p>
 <h2>pipe-seg</h2>
 <p>RQ: PRODUCER env var als streamer</p>
 <h2>pipe-consumer</h2>

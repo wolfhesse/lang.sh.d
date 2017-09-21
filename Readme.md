@@ -2,7 +2,7 @@ pipe to netcat | listen | pipe - segments
 
 
 
-## pipe-set
+## pipe-seg
 
 RQ: PRODUCER env var als streamer
 
@@ -21,12 +21,15 @@ while true cat readme | nc
 
 scenario: 
 
-- in /code/lang.sh.d/pipe-seg/nc-server-1
+ code/lang ist remote origin zu data/lang
+ data/lang ist integration-base .. | stable-sys
+
+- in /code/lang.sh.d/pipe-seg/nc-server-1 (dev: pipe-seg branch)
 ``` sh
 	sh run_once.sh | nc -l -p 1235 -k
 ``` 
 
-- in /opt/data.d/lang.sh.d/handle-sendport
+- in /opt/data.d/lang.sh.d/handle-sendport (int: dd-integration branch)
 ``` sh
 	while true; do sh run_once.sh ; done
 ```

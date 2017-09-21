@@ -6,10 +6,7 @@ pipe to netcat | listen | pipe - segments
 
 RQ: PRODUCER env var als streamer
 
-
-## nc-server-1
-
-while true cat readme | nc
+##
 
 ## dd-integration
 

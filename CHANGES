@@ -1,3 +1,16 @@
+Version 0.2.0.eod:
+ - Merge branch 'master' into pipe-seg
+ - Merge branch 'master' of github.com:wolfhesse/lang.sh.d
+ - Merge branch 'dd-integration' of github.com:wolfhesse/lang.sh.d into dd-integration
+ - Merge pull request #3 from wolfhesse/pipe-seg
+ - Merge branch 'pipe-seg' into dd-integration
+ - wp
+ - rfc mailbot -> cmd -> pipeline
+ - Merge pull request #2 from wolfhesse/master
+ - wp erzeugt html
+ - Merge pull request #1 from wolfhesse/dd-integration
+ - wp
+
 Version 0.1.0
  - branches beschreiben
  - Merge remote-tracking branch 'github/master'

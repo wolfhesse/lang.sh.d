@@ -5,12 +5,18 @@
 # netcat-anf
 # tee 'through netcat?'
 
-# need listener: 
-# netcat 0.0.0.0 1234 > sample.rcv &
 
 # netcat-body
 
 date >> sample.res
-ls -al ./ | nc -l -p 1234 | tee sample.t0.res | cat | cat >> sample.res
+
+## product stream producer: ls
+ls -al ./ | tee sample.t1.res | nc -l -p 1234 >> sample.res & # backgrounding server
+
+## start listener
+date >> nc.rcv
+nc localhost 1234 -w 3 >> nc.rcv # timeout .. eof
+
+## consumer: tf nc.rcv
 
 # netcat-end
